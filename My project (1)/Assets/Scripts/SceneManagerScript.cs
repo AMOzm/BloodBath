@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
 
 public class SceneManagerScript : MonoBehaviour
 {
@@ -12,10 +14,22 @@ public class SceneManagerScript : MonoBehaviour
     // public GameObject slider;
     // public Timer timer;
     public GameObject guestPrefab;
+    public GameObject guestWaitPrefab;
+    public GameObject UIOrders;
+    [SerializeField] private GameManager gm;
+    
     
     
     // public bool moved;
-   
+    void Awake()
+    {
+        // UIOrders = FindObjectOfType<UIHolder>();
+        gm = FindObjectOfType<GameManager>(); // Find the GameManager script in the scene
+        if (gm == null)
+        {
+            Debug.LogError("GameManager script not found in the scene.");
+        }
+    }
     void Start(){
         // moved = false;
         //originalPos = new Vector3 (transform.position.x, transform.position.y, transform.position.z);
@@ -37,8 +51,15 @@ public class SceneManagerScript : MonoBehaviour
             
             if (emptyPosition != Vector3.zero)
             {
+                // gm.Remove();
                 Instantiate(guestPrefab, emptyPosition, Quaternion.identity);
-                Destroy(gameObject);
+                Instantiate(UIOrders);
+                
+                Destroy(guestWaitPrefab);
+                
+                // gm.waitGuests.RemoveAt(1);
+                
+
             }
             else
             {

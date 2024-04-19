@@ -47,8 +47,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneNumber: 1
-  newPos: {x: 10, y: 0, z: 0}
+  newPos:
+  - {x: -1.1014169e+16, y: 7.34e-43, z: 0.000000010256007}
+  - {x: 0.00000016985791, y: 2.946987e-39, z: 7.36e-43}
+  - {x: 4.6e-44, y: 0.0000000026686398, z: -1.1014169e+16}
+  - {x: 4.6e-44, y: 0.0000000026686398, z: -1.1014169e+16}
   guestPrefab: {fileID: 8298612520293467149}
+  guestWaitPrefab: {fileID: 0}
+  gm: {fileID: 0}
 --- !u!212 &741413879551156796
 SpriteRenderer:
   m_ObjectHideFlags: 0
