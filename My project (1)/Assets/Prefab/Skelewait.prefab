@@ -387,7 +387,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneNumber: 1
-  newPos: {x: -7, y: 15, z: -7}
+  newPos:
+  - {x: 5, y: 1, z: -14}
+  - {x: 5, y: 1, z: 4}
+  - {x: 18, y: 1, z: -7}
+  - {x: 18, y: 1, z: -1}
   guestPrefab: {fileID: 8298612520293467149, guid: b9a666ebe8c5517428ee83df4ff6f630, type: 3}
 --- !u!212 &741413879551156796
 SpriteRenderer:
