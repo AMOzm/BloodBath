@@ -73,7 +73,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.008, y: 0.075}
+  m_AnchoredPosition: {x: -0.03, y: 0.19}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1543258228506795985
@@ -965,7 +965,7 @@ GameObject:
   - component: {fileID: 5637422250889355804}
   - component: {fileID: 741413879551156796}
   - component: {fileID: 4494408930238892063}
-  - component: {fileID: 4071069738477944303}
+  - component: {fileID: 2959464082987219056}
   m_Layer: 0
   m_Name: ph1
   m_TagString: bath
@@ -1011,7 +1011,7 @@ MonoBehaviour:
   Orders: {fileID: 5244495399636656113}
   guestWaitPrefab: {fileID: 0}
   gm: {fileID: 0}
-  tooLong: {fileID: 21300000, guid: 953397a17da996b45aac14eec98cfcca, type: 3}
+  tooLong: {fileID: 21300000, guid: b3bfc1c3321f0e84f82c719466386841, type: 3}
   bathDelay: 5
   newColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!212 &741413879551156796
@@ -1055,7 +1055,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5df8a2f02172abf44b221a1444cef62a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3fc3dafbf3207624789c9d74eaf0d12a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1111,7 +1111,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 9.7, y: 28.56}
   m_EdgeRadius: 0
---- !u!114 &4071069738477944303
+--- !u!114 &2959464082987219056
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1138,8 +1138,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1160960735075474596}
   m_Layer: 0
-  m_Name: Skelechoice
-  m_TagString: Untagged
+  m_Name: Wolfchoice
+  m_TagString: bath
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

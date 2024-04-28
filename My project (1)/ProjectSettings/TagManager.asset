@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - change
+  - grid
+  - red
+  - green
+  - blue
+  - bath
+  - RedC
+  - GreenC
+  - BlueC
   layers:
   - Default
   - TransparentFX

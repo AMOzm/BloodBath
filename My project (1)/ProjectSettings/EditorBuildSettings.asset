@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/conv.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Red.unity
+    guid: 21802d43d16d7954b9d81e2ec95f8bc8
+  - enabled: 1
+    path: Assets/Scenes/Green.unity
+    guid: fd3235e018f07fe45ad7a01061f0a1cd
+  - enabled: 1
+    path: Assets/Scenes/Blue.unity
+    guid: 2963e90f8c86fda47be6b174bfe57635
   m_configObjects: {}

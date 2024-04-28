@@ -48,7 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerSlider: {fileID: 7609322706245494235}
   timerText: {fileID: 4488020478367602402}
-  gameTime: 30
+  gameTime: 10
   guest: {fileID: 836928402643819282}
   originalBarPos: {x: 0, y: 0, z: 0}
 --- !u!114 &-8303142336433449439
@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 1710048726490585205}
   m_Layer: 0
   m_Name: ph1
-  m_TagString: Untagged
+  m_TagString: change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -275,14 +275,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneNumber: 1
   newPos:
-  - {x: 5, y: 1, z: -14}
-  - {x: 5, y: 1, z: 4}
-  - {x: 18, y: 1, z: -7}
-  - {x: 18, y: 1, z: -1}
+  - {x: 22, y: 2, z: 13}
+  - {x: 28.5, y: 2, z: 14}
+  - {x: 34.3, y: 2, z: 25.5}
+  - {x: 15.3, y: 2, z: 25.5}
   guestPrefab: {fileID: 8298612520293467149, guid: b9a666ebe8c5517428ee83df4ff6f630, type: 3}
+  Orders: {fileID: 0}
   guestWaitPrefab: {fileID: 836928402643819282}
-  UIOrders: {fileID: 8463257742557172932, guid: 24c90bef8eb22964f88d22a8e88b8158, type: 3}
   gm: {fileID: 0}
+  tooLong: {fileID: 0}
+  bathDelay: 0
+  newColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!212 &1164892190184649646
 SpriteRenderer:
   m_ObjectHideFlags: 0
